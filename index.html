@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/script.js"></script>
+    <title>매스티지데코</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-wrap">
+                <h1 class="logo">
+                    <img src="./img/s_logo.png" alt="">
+                </h1>
+                <div class="menu">
+                    <li class="tab1">
+                        <a href="#none">About us</a>
+                    </li>
+                    <li class="tab2">
+                        <a href="#none">Products</a>
+                    </li>
+                    <li class="tab3">
+                        <a href="#none">New Collection</a>
+                    </li>
+                    <li class="tab4">
+                        <a href="#none">Partners</a>
+                    </li>
+                    <li class="tab5">
+                        <a href="#none">Stores</a>
+                    </li>
+                </div>
+                <div class="svg-box">
+                    <div class="bag">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <path d="M17.7125 31.9162C17.8778 30.8148 18.8239 30 19.9376 30H60.0623C61.176 30 62.1222 30.8148 62.2874 31.9162L67.6124 67.4162C67.8165 68.7766 66.7629 70 65.3873 70H14.6126C13.2371 70 12.1835 68.7766 12.3875 67.4162L17.7125 31.9162Z" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M52 38V22C52 15.3726 46.6274 10 40 10C33.3726 10 28 15.3726 28 22V38" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="user">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <path d="M60 70.0002H20C17.7909 70.0002 16 68.2094 16 66.0002V64.6639C16 58.8513 19.6061 53.6486 25.049 51.6087C34.6889 47.9957 45.3111 47.9957 54.951 51.6087C60.3939 53.6486 64 58.8513 64 64.6639V66.0002C64 68.2094 62.2091 70.0002 60 70.0002Z" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M33.901 38.8673C37.729 40.8336 42.2702 40.8336 46.0981 38.8673C49.6607 37.0373 52.2131 33.7042 53.0512 29.7878L53.2748 28.7425C54.1318 24.7375 53.2164 20.5576 50.764 17.2773L50.4049 16.797C47.9521 13.5163 44.0958 11.5845 39.9996 11.5845C35.9034 11.5845 32.047 13.5163 29.5943 16.797L29.2352 17.2773C26.7827 20.5576 25.8674 24.7375 26.7243 28.7425L26.948 29.7878C27.786 33.7042 30.3385 37.0373 33.901 38.8673Z" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="search">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M66.782 66.4336L54.3198 53.9714" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M13.5775 30.724C15.8197 22.3559 22.3559 15.8197 30.724 13.5775C39.092 11.3353 48.0206 13.7277 54.1464 19.8536C60.2723 25.9794 62.6647 34.908 60.4225 43.276C58.1802 51.6441 51.6441 58.1802 43.276 60.4225C34.908 62.6647 25.9794 60.2723 19.8536 54.1464C13.7277 48.0206 11.3353 39.092 13.5775 30.724Z" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="bar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <path d="M16 22L64 22" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 40L64 40" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 58L64 58" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="search-box">
+            <div class="cancel-box">
+                <button><svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M55.5564 55.6693L24.4437 24.5566" stroke="#1a1a1e" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M24.4436 55.6693L55.5563 24.5566" stroke="#1a1a1e" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg></button>
+            </div>
+            <div class="cancel-box-inbox">
+                <div class="cancel-inbox">
+                    <input type="search" placeholder="검색어를 입력하세요" class="search-btn">
+                    <a href="#none">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M66.782 66.4336L54.3198 53.9714" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M13.5775 30.724C15.8197 22.3559 22.3559 15.8197 30.724 13.5775C39.092 11.3353 48.0206 13.7277 54.1464 19.8536C60.2723 25.9794 62.6647 34.908 60.4225 43.276C58.1802 51.6441 51.6441 58.1802 43.276 60.4225C34.908 62.6647 25.9794 60.2723 19.8536 54.1464C13.7277 48.0206 11.3353 39.092 13.5775 30.724Z" stroke="#1a1a1e" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="cancel-txt-box">
+                    <h3>인기 검색어</h3>
+                    <span>레노바티오</span>
+                    <span>컨티뉴</span>
+                    <span>뉴레트로 서랍장</span>
+                    <span>런더너</span>
+                    <span>런더너 원목 테이블</span>
+                    <span>컨티뉴 AV 장식장</span>
+                    <span>뉴레트로 화장대 세트</span>
+                    <span>컨티뉴 화장대 세트</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-se">
+            <li class="tab1">
+                <a href="#none">About us</a>
+            </li>
+            <li class="tab2">
+                <a href="#none">Products</a>
+            </li>
+            <li class="tab3">
+                <a href="#none">New Collection</a>
+            </li>
+            <li class="tab4">
+                <a href="#none">Partners</a>
+            </li>
+            <li class="tab5">
+                <a href="#none">Stores</a>
+            </li>
+        </div>
+        <a href="#none" class="banner"></a>
+
+            <section>
+                <!-- sec-1 영역 -->
+                <div class="sec-1">
+                    <span>PRODUCTS</span>
+                    <div class="img-box box1">
+                        <div class="r-box">
+                            <div class="inbox inbox1">
+                                <a href="#none">
+                                    <img src="./img/HANGER.jpg" alt="">
+                                </a>
+                                <h4>HANGER</h4>
+                            </div>
+                            <div class="inbox inbox2">
+                                <a href="#none">
+                                    <img src="./img/DRESS CONSOLE.jpg" alt="">
+                                </a>
+                                <h4>DRESS CONSOLE</h4>
+                            </div>
+                        </div>
+                        <div class="l-box">
+                            <a href="#none">
+                                <img src="./img/BEDROOM.jpg" alt="">
+                            </a>
+                            <h4>BEDROOM</h4>
+                        </div>
+                    </div>
+                    <div class="img-box box2">
+                        <div class="l-box inbox2">
+                            <a href="#none">
+                                <img src="./img/sofa.jpg" alt="">
+                            </a>
+                            <h4>SOFA</h4>
+                        </div>
+                        <div class="r-box">
+                            <div class="inbox inbox1">
+                                <a href="#none">
+                                    <img src="./img/LIVING ROOM.jpg" alt="">
+                                </a>
+                                <h4>LIVING ROOM</h4>
+                            </div>
+                            <div class="inbox">
+                                <a href="#none">
+                                    <img src="./img/table.jpg" alt="">
+                                </a>
+                                <h4>TABLE</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-box box3">
+                        <div class="r-box">
+                            <div class="inbox inbox1">
+                                <a href="#none">
+                                    <img src="./img/table.jpg" alt="">
+                                </a>
+                                <h4>TABLE</h4>
+                            </div>
+                            <div class="inbox inbox2">
+                                <a href="#none">
+                                    <img src="./img/chair.jpg" alt="">
+                                </a>
+                                <h4>CHAIR</h4>
+                            </div>
+                        </div>
+                        <div class="l-box">
+                            <a href="#none">
+                                <img src="./img/diningroom.jpg" alt="">
+                            </a>
+                            <h4>DININGROOM</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- sec-2 영역 -->
+                <div class="sec-2">
+                    <span>A NEW WAY OF</span>
+                    <span> LOOKING AT THINGS</span>
+                    <a href="#none" class="sec-2-img"></a>
+                </div>
+
+                <!-- sec-3 영역 -->
+                <div class="sec-3">
+                    <span>NEW COLLECTION</span>
+                    <div class="img-box">
+                        <div class="l-box inbox2">
+                            <a href="#none">
+                                <img src="./img/sofa.jpg" alt="">
+                            </a>
+                            <h4>SOFA</h4>
+                        </div>
+                        <div class="r-box-out">
+                            <div class="r-box-in">
+                                <div class="inbox inbox1">
+                                    <a href="#none">
+                                        <img src="./img/LIVING ROOM.jpg" alt="">
+                                    </a>
+                                    <h4>LIVING ROOM</h4>
+                                </div>
+                                <div class="inbox">
+                                    <a href="#none">
+                                        <img src="./img/table.jpg" alt="">
+                                    </a>
+                                    <h4>TABLE</h4>
+                                </div>
+                            </div>
+                            <div class="btn">View more</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- sec-4 영역 -->
+                <div class="sec-4">
+                    <span class="p">PARTNERS</span>
+                    <div class="sec-4-box">
+                        <div class="box">
+                            <div class="name-box">
+                                <span class="name M">MOTRIL</span>
+                                <label for="trigger" class="toggle_label toggle_label-1">
+                                    <span></span>
+                                    <span></span>
+                                </label>
+                            </div>
+                            <div class="sec-4-inbox">
+                                <div class="sec-4-inbox-in">
+                                    <a href="#none">
+                                        <img src="./img/MOTRIL.jpg" alt="">
+                                    </a>
+                                    <div class="txt">
+                                        <span>길을 잃은 곳에서 우연히 '모트릴'을 발견했다.</span>
+                                        <span>지나칠까 머무를까 고민한 끝에 모든 시간을 보냈다.</span>
+                                        <span>'모트릴'에서의 시간이 여전히 일상의 즐거움으로 살아있다.</span>
+                                        <span>우리가 만드는 것들을 우연히 마주하게 될 모든이에게 우리의 모트릴을 선물한다.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="name-box">
+                                <span class="name">TONE.C</span>
+                                <label for="trigger" class="toggle_label toggle_label-2">
+                                    <span></span>
+                                    <span></span>
+                                </label>
+                            </div>
+                            <div class="sec-4-inbox">
+                                <div class="sec-4-inbox-in plus">
+                                    <div class="txt txt-l">
+                                        <span>톤도씨는 우리들의 일상 공간에 스토리를 담는 디자인 브랜드입니다.</span>
+                                        <span>톤도씨는 나무, 돌, 흙, 모래, 꽃과 같은 자연의 텍스쳐가 가지고 있는 다양한 이야기들을 일상 속 오브제들로 표현합니다.</span>
+                                        <span>오브제 속에 스토리를 담아 우리가 경험하는 일상의 순간들을 더욱더 선명하게 만들며,</span>
+                                        <span>여러분들의 이야기를 지닌 공간을 만들어 나갈 수 있다고 생각합니다.</span>
+                                        <span>온전한 나만의 일상과 공간을 찾아가는 여러분들을 위해 톤도씨는 항상 STAY, STAY SLOW 할 수 있는 오브제를 디자인합니다. </span>
+                                    </div>
+                                    <a href="#none">
+                                        <img src="./img/tonec.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="name-box">
+                                <span class="name">INMYMOODK</span>
+                                <label for="trigger" class="toggle_label toggle_label-3">
+                                    <span></span>
+                                    <span></span>
+                                </label>
+                            </div>
+                            <div class="sec-4-inbox">
+                                <div class="sec-4-inbox-in">
+                                    <a href="#none">
+                                        <img src="./img/immd.jpg" alt="">
+                                    </a>
+                                    <div class="txt">
+                                        <span> 인마이무드K 는 인테리어 소품으로 사용되는 오브제 캔들, 디퓨저 및 소품등을 제작하는 핸드메이드 리빙 브랜드입니다.</span>
+                                        <span>제품의 디자인뿐만 아니라 발향도 좋아 방향제효과로도 뛰어나며,</span>
+                                        <span>오직 인마이무드만의 느낌으로 유니크하면서도 깔끔하고 고급스러운 느낌을 연출한 작품입니다.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- sec-5 영역 -->
+                <div class="sec-5">
+                    <span class="p">STORES</span>
+                    <div class="sec-5-box">
+                        <div class="box">
+                            <div class="txt-box">
+                                <h2 class="f">YONGIN FLAGSHIP STORE</h2>
+                                <h4 class="s">TEL 031-767-4626</h4>
+                            </div>
+                            <div class="sec-5-img-box">
+                                <a href="#none">
+                                    <img src="./img/YONGIN.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="txt-box">
+                                <h2 class="f">GYEONGIN FLAGSHIP STORE</h2>
+                                <h4 class="s">TEL 070-7730-7081</h4>
+                            </div>
+                            <div class="sec-5-img-box">
+                                <a href="#none">
+                                    <img src="./img/GYEO.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="txt-box">
+                                <h2 class="f">JEJU STORE</h2>
+                                <h4 class="s">TEL 064-723-1137</h4>
+                            </div>
+                            <div class="sec-5-img-box">
+                                <a href="#none">
+                                    <img src="./img/JEJU.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">View more</div>
+                </div>
+            </section>
+
+        <!-- sec-6 영역 -->
+        <div class="sec-6">
+            <img src="./img/logo&slogan.jpg" alt="">
+        </div>
+
+        <footer>
+            <div class="txt-box">
+                <h2 class="cc">CUSTOMER CENTER</h2>
+                <h2 class="num">1544-0366</h2>
+                <span>우리은행 1005-701-834533 / 예금주 : (주)매스티지데코</span>
+                <span>월~금 AM 10:00 ~ PM 04:00 점심시간 PM 12:00 ~ PM 02:00</span>
+                <span>ONLINE SHOP 공휴일,토,일 휴무 HOME43 STORE 연중무휴 ※1월 1일, 설(당일), 추석(당일) 제외</span>
+                <span class="notice">이용 약관 ㅣ 개인정보취급방침</span>
+                <span>상호 주식회사 매스티지데코 대표이사김지수 정보책임자 1544-0366 사업자 등록번호 220-88-17461 사업자정보확인 통신판매업신고2011-서울강남-01454 이메일 mastideco@nastideco.co.kr</span>
+                <span>주소 서울특별시 서초구 신반포로45길 9-4, 더원빌딩 2F TEL 1544-0366 FAX 02-557-2712</span>
+                <span>Copyright(c) by 주식회사 매스티지데코, All rights reserved</span>
+            </div>
+        </footer>
+
+        <div class="top-btn">
+            <a href="#none">
+                <img src="./img/top.btn.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
